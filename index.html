@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ไม่ทิ้งกันนะ 💌</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- หน้าแรก: จดหมาย แตะเพื่อเปิด -->
+<div class="envelope-screen" id="envelopeScreen">
+  <div class="envelope" id="envelope">
+    <div class="envelope-letter" id="envelopeLetter">💌</div>
+    <div class="envelope-flap"></div>
+    <div class="envelope-body"></div>
+    <div class="envelope-seal">💗</div>
+  </div>
+  <p class="tap-hint" id="tapHint">แตะเพื่อเปิด 💌</p>
+</div>
+
+<div class="card" id="mainCard">
+  <div class="header-visual" id="headerVisual">
+    <img id="headerGif" src="" alt="">
+  </div>
+
+  <h1>ขอโทษจริง ๆ นะ...</h1>
+  <p class="message">
+    เค้าขอโทษ ที่ทำให้อ้วนเสียใจตลอด<br>
+    แต่เค้ายังอยู่กับอ้วนจริงๆ นะ<br>
+    เค้าขอโอกาศทำหน้าที่ให้ดีกว่านี้ได้ไหม<br>
+    อ้วนอย่าทิ้งเค้าไปเลยนะ<br><br>
+    😭😭
+  </p>
+
+  <div class="btn-row" id="btnRow">
+    <button id="leaveBtn">ทิ้ง 😤</button>
+    <button id="stayBtn">ไม่ทิ้ง 💖</button>
+  </div>
+
+  <div class="result" id="result"></div>
+</div>
+
+<!-- หน้าถัดไป: แสดงหลังกด "ไม่ทิ้ง" -->
+<div class="next-page" id="nextPage">
+  <div class="next-page-content">
+    <img id="popGif" src="" alt="">
+    <h2 id="popMessage">อ้วนไม่ทิ้งเค้าจริง ๆ ด้วย 🥹💖</h2>
+    <p id="popSubMessage">ขอบคุณนะที่ให้โอกาสเค้าอีกครั้ง รักอ้วนที่สุดเลย 💕</p>
+  </div>
+</div>
+
+<script src="media.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
